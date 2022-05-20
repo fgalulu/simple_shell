@@ -8,7 +8,7 @@
 int execute(char **cmd)
 {
 	pid_t child_pid;
-	int atatus;
+	int status;
 
 	if (strncmp("exit", cmd[0], 4) == 0)
 		return (-1);
